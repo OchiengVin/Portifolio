@@ -1,0 +1,168 @@
+
+body, h1, h2, h3, h4, p, ul, li, form, label, textarea, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    min-height: 100vh; 
+    position: relative;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.address .city {
+    font-weight: bold;
+    color: #007BFF; 
+}
+
+.address .country {
+    font-style: italic;
+    color: #33ff57; 
+}
+
+header h1 {
+    color: #fff;
+}
+nav {
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-end; 
+    
+}
+
+nav ul li {
+    margin-left: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; 
+    display: block; 
+    padding: 10px 15px; 
+}
+nav a:nth-child(1) {
+    border-radius: 10px;
+    background-color: black; 
+}
+
+nav a:nth-child(2) {
+    background-color: #33ff57; 
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #0056b3; 
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+/* Add more specific styles for form elements if needed */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Add responsive styles if needed */
+
+@media (max-width: 600px) {
+    header {
+        padding: 0.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
